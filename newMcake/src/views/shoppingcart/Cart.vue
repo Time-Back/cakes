@@ -366,6 +366,7 @@ export default {
     }, //价格计算
     priceCount() {
       this.priceAll = 0;
+      //console.log(this.nowSizes)
       for (var i = 0; i < this.nowSizes.length; i++) {
         if (this.nowSizes[i].check == true) {
           if (this.nowSizes[i].size == this.pointSizes1[0]) {
